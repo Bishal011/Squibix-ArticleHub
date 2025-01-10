@@ -1,0 +1,30 @@
+.rich-text-editor {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    min-height: 200px;
+    background-color: #fff;
+  }
+  
+  .DraftEditor-root {
+    min-height: 200px;
+    cursor: text;
+  }
+  
+  .DraftEditor-editorContainer {
+    margin-top: 1rem;
+  }
+  
+  .DraftEditor-editor {
+    min-height: 200px;
+  }
+  
+  .public-DraftEditorPlaceholder-root,
+  .public-DraftEditorPlaceholder-inner {
+    color: #aaa;
+  }
+  
+  .public-DraftStyleDefault-block {
+    margin-bottom: 1rem;
+  }
+  

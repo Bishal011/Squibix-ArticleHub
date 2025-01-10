@@ -1,0 +1,60 @@
+.edit-article-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-article-page h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .edit-article-page input,
+  .edit-article-page textarea,
+  .edit-article-page .rich-text-editor,
+  .edit-article-page button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .edit-article-page input:focus,
+  .edit-article-page textarea:focus,
+  .edit-article-page .rich-text-editor:focus,
+  .edit-article-page button:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .edit-article-page textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .edit-article-page .rich-text-editor {
+    min-height: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  
+  .edit-article-page button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-article-page button:hover {
+    background-color: #0056b3;
+  }
+  

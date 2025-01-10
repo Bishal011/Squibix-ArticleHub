@@ -1,0 +1,60 @@
+.create-article-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--card-background-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-article-page h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .create-article-page input,
+  .create-article-page textarea,
+  .create-article-page .rich-text-editor,
+  .create-article-page button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .create-article-page input:focus,
+  .create-article-page textarea:focus,
+  .create-article-page .rich-text-editor:focus,
+  .create-article-page button:focus {
+    outline: none;
+    border-color: var(--input-focus-border-color);
+  }
+  
+  .create-article-page textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .create-article-page .rich-text-editor {
+    min-height: 200px;
+    background-color: var(--input-background-color);
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  
+  .create-article-page button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-article-page button:hover {
+    background-color: var(--button-hover-background-color);
+  }
+  
