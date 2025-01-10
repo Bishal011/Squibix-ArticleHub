@@ -5,18 +5,6 @@ ArticleHub is a modern, React-based article reading platform designed to provide
 
 ## Live - https://melodic-belekoy-d8b41c.netlify.app/
 
-## Project Goals
-- Create an intuitive and distraction-free reading environment
-- Implement modern React patterns and best practices
-- Demonstrate proper state management and component architecture
-- Showcase responsive design and accessibility considerations
-- Enable content creation and management
-- Test candidates' ability to create polished user interactions
-
----
-
-
----
 
 ## Project Setup
 1. Clone the repository:
